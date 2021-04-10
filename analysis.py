@@ -1,6 +1,6 @@
 import unittest
 
-# the analyze function takes in an var arguent of numbers
+# the analyze function takes in an var argument of numbers
 # it should return a dicitonary of {'mean':0,'median':0,'mode':0,'largest':0,'smallest':0}
 def analyze(*nums):
     pass
@@ -15,7 +15,7 @@ class TestMethods(unittest.TestCase):
 
     def test_analyze_2(self):
         data = analyze(10,5,10,200,-65)
-        self.assertDictEqual(data, {'mean':32,'median':5,'mode':10, 'largest':200,'smallest':-65})
+        self.assertDictEqual(data, {'mean':32,'median':10,'mode':10, 'largest':200,'smallest':-65})
         
 
 
